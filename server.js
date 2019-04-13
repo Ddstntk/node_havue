@@ -5,7 +5,7 @@ const mysql = require('mysql');
 const path = require('path');
 const app = express();
 
-const AM = require('./account_manager');
+const AM = require('./routes/account_menager');
 
 const {getHomePage} = require('./routes/index');
 // const {man}
